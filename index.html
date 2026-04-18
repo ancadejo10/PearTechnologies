@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pear Technologies — Calidad de Carga, Alto desempeño, y un Buen diseño.</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo" data-scroll="home">
+      <div class="logo-icon" style="background-image: url(Icon.webp); width: 30px; height: 34px; background-size: cover;"></div>
+      <span>Pear Technologies</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home" data-scroll="home">Inicio</a></li>
+      <li><a href="#shop" data-scroll="shop">Tienda</a></li>
+      <li><a href="#about" data-scroll="about">Nosotros</a></li>
+      <li><a href="#proyecto" data-scroll="proyecto">Proyecto</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="cart-btn" id="cartBtn" aria-label="Carrito">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" data-scroll="home">Inicio</a>
+    <a href="#shop" data-scroll="shop">Tienda</a>
+    <a href="#about" data-scroll="about">Nosotros</a>
+    <a href="#proyecto" data-scroll="proyecto">Proyecto</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="grid-lines"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge reveal"><span class="badge-dot"></span>Cargadores y stickers para tu día a día</div>
+    <h1 class="hero-title reveal-delay-1">Carga tu mundo,<br><span class="gradient-text">exprésate.</span></h1>
+    <p class="hero-subtitle reveal-delay-2">Cables, cubitos y stickers con diseño y personalidad.<br>Productos reales, precios reales. Desde $5.</p>
+    <div class="hero-cta reveal-delay-3">
+      <button class="btn-primary" data-scroll="shop">Ver productos</button>
+      <button class="btn-ghost" data-scroll="about">Conocernos</button>
+    </div>
+    <div class="hero-slogan-box reveal-delay-4">
+      <svg class="slogan-quote-icon" width="20" height="16" viewBox="0 0 20 16" fill="none"><path d="M0 16V9.6C0 4.267 2.667 1.067 8 0l1.2 1.6C6.4 2.4 4.8 4 4.4 6.4H8V16H0ZM12 16V9.6C12 4.267 14.667 1.067 20 0l1.2 1.6C18.4 2.4 16.8 4 16.4 6.4H20V16H12Z" fill="currentColor" opacity="0.3"/></svg>
+      <p class="hero-slogan">Calidad de Carga, Alto desempeño, y un Buen diseño.</p>
+    </div>
+  </div>
+  <div class="hero-visual reveal-delay-2">
+    <div class="hero-device">
+      <div class="device-glow"></div>
+      <div class="floating-card card-a">
+        <div class="fc-icon">🔌</div>
+        <div><div class="fc-label">Cables USB-C & Lightning</div><div class="fc-val">$99 c/u</div></div>
+      </div>
+      <div class="floating-card card-b">
+        <div class="fc-icon">🎨</div>
+        <div><div class="fc-label">Stickers</div><div class="fc-val">Desde $5</div></div>
+      </div>
+      <div class="logo-icon" style="background-image: url(Icon.webp); width: 110px; height: 126px; background-size: cover;""></div>
+    </div>
+  </div>
+  <div class="scroll-indicator"><div class="scroll-line"></div><span>Scroll</span></div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>Cable USB-C $99</span><span class="marquee-dot">·</span>
+    <span>Cable Lightning $99</span><span class="marquee-dot">·</span>
+    <span>Cubito USB-C $99</span><span class="marquee-dot">·</span>
+    <span>Cubito USB-B $99</span><span class="marquee-dot">·</span>
+    <span>Sticker $5</span><span class="marquee-dot">·</span>
+    <span>Pack 5 stickers $21</span><span class="marquee-dot">·</span>
+    <span>Pack 10 stickers $45</span><span class="marquee-dot">·</span>
+    <span>Cable USB-C $99</span><span class="marquee-dot">·</span>
+    <span>Cable Lightning $99</span><span class="marquee-dot">·</span>
+    <span>Cubito USB-C $99</span><span class="marquee-dot">·</span>
+    <span>Cubito USB-B $99</span><span class="marquee-dot">·</span>
+    <span>Sticker $5</span><span class="marquee-dot">·</span>
+    <span>Pack 5 stickers $21</span><span class="marquee-dot">·</span>
+    <span>Pack 10 stickers $45</span><span class="marquee-dot">·</span>
+  </div>
+</div>
+
+<!-- ============ SHOP ============ -->
+<section class="shop" id="shop">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Catálogo</span>
+      <h2 class="section-title">Nuestros <span class="gradient-text">productos</span></h2>
+      <p class="section-sub">Todo lo que vendemos. Precios fijos y reales, sin inventos.</p>
+    </div>
+    <div class="shop-filters reveal">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="cables">Cables</button>
+      <button class="filter-btn" data-filter="cubitos">Cubitos</button>
+      <button class="filter-btn" data-filter="stickers">Stickers</button>
+    </div>
+    <div class="shop-grid" id="shopGrid"></div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-intro reveal">
+      <span class="section-tag">Sobre nosotros</span>
+      <h2 class="section-title">Somos <span class="gradient-text">Pear Technologies</span></h2>
+      <p class="about-lead">Una empresa conformada por 4 estudiantes apasionados por la tecnología y el diseño. Vendemos cargadores y stickers con personalidad para un público de todas las edades.</p>
+    </div>
+    <div class="mission-vision-grid">
+      <div class="mv-card reveal">
+        <div class="mv-icon">🎯</div>
+        <h3>Misión</h3>
+        <p>Brindar productos tecnológicos y creativos de alta calidad, como cargadores y stickers con diseños llamativos, que combinen funcionalidad, estilo y accesibilidad para un público joven, impulsando una experiencia moderna y confiable en su día a día.</p>
+      </div>
+      <div class="mv-card reveal-delay-1">
+        <div class="mv-icon">🚀</div>
+        <h3>Visión</h3>
+        <p>Convertirnos en una marca reconocida a nivel nacional por innovar en accesorios tecnológicos y diseño juvenil, posicionándonos como la primera opción para jóvenes que buscan rendimiento, estética y personalidad.</p>
+      </div>
+    </div>
+    <div class="team-section">
+      <div class="section-header reveal">
+        <span class="section-tag">El equipo</span>
+        <h2 class="section-title">Los 4 que hacen <span class="gradient-text">posible</span> esto</h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal"><div class="team-avatar av-1""><span>A</span><div class="av-ring" style="background-image: url(Arturo.webp); background-size: cover;"></div></div><h4>Arturo Del Callejo Salgado</h4><span class="team-role">CEO & Diseño</span><p>Visión creativa y liderazgo de la marca.</p></div>
+        <div class="team-card reveal-delay-1"><div class="team-avatar av-2"><span>B</span><div class="av-ring" style="background-image: url(Pablo.webp); background-size: cover;"></div></div><h4>Pablo Salmon Rivas</h4><span class="team-role">Producto & Operaciones</span><p>Selección de productos y logística.</p></div>
+        <div class="team-card reveal-delay-2"><div class="team-avatar av-3"><span>C</span><div class="av-ring" style="background-image: url(Miguel.webp); background-size: cover;"></div></div><h4>Miguel Becerra Alcalá</h4><span class="team-role">Marketing & Redes</span><p>Estrategia digital y presencia en redes.</p></div>
+        <div class="team-card reveal-delay-3"><div class="team-avatar av-4"><span>D</span><div class="av-ring" style="background-image: url(Cristian.webp); background-size: cover;"></div></div><h4>Cristian Zavala Velasco</h4><span class="team-role">Ventas & Finanzas</span><p>Relación con clientes y control de costos.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROYECTO ============ -->
+<section class="proyecto" id="proyecto">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Documentación del proyecto</span>
+      <h2 class="section-title">El proyecto <span class="gradient-text">completo</span></h2>
+      <p class="section-sub">Empresa, producto y estrategia de marketing.</p>
+    </div>
+
+    <div class="proyecto-tabs reveal">
+      <button class="tab-btn active" data-tab="empresa">🏢 Tu Empresa</button>
+      <button class="tab-btn" data-tab="producto">📦 Tu Producto</button>
+      <button class="tab-btn" data-tab="marketing">📣 Marketing</button>
+    </div>
+
+    <!-- TAB EMPRESA -->
+    <div class="tab-panel active" id="tab-empresa">
+      <div class="info-grid">
+
+        <div class="info-card wide reveal">
+          <div class="ic-header"><span class="ic-icon">🏢</span><h3>Descripción de la empresa</h3></div>
+          <p>Pear Technologies es una microempresa estudiantil fundada por 4 integrantes, enfocada en la venta de accesorios tecnológicos y creativos. Comercializamos cables de carga (USB-C y Lightning), cubitos cargadores (USB-C y USB-B) y stickers decorativos, dirigidos a un público amplio de 5 a 100 años, con especial énfasis en el segmento juvenil.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="ic-header"><span class="ic-icon">🎯</span><h3>Misión</h3></div>
+          <p>Brindar productos tecnológicos y creativos de alta calidad que combinen funcionalidad, estilo y accesibilidad para un público joven, impulsando una experiencia moderna y confiable en su día a día.</p>
+        </div>
+
+        <div class="info-card reveal-delay-1">
+          <div class="ic-header"><span class="ic-icon">🚀</span><h3>Visión</h3></div>
+          <p>Convertirnos en una marca reconocida a nivel nacional por innovar en accesorios tecnológicos y diseño juvenil, posicionándonos como la primera opción para jóvenes que buscan rendimiento, estética y personalidad.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="ic-header"><span class="ic-icon">💡</span><h3>Valores</h3></div>
+          <ul class="value-list">
+            <li><span class="val-dot"></span><strong>Calidad:</strong> Productos que cumplen lo que prometen.</li>
+            <li><span class="val-dot"></span><strong>Honestidad:</strong> Precios claros, sin letra chica.</li>
+            <li><span class="val-dot"></span><strong>Creatividad:</strong> Diseño con personalidad propia.</li>
+            <li><span class="val-dot"></span><strong>Accesibilidad:</strong> Para todos los bolsillos y edades.</li>
+            <li><span class="val-dot"></span><strong>Trabajo en equipo:</strong> 4 personas, 1 objetivo.</li>
+          </ul>
+        </div>
+
+        <div class="info-card reveal-delay-1">
+          <div class="ic-header"><span class="ic-icon">🏆</span><h3>Objetivos</h3></div>
+          <ul class="value-list">
+            <li><span class="val-dot"></span>Vender nuestro catálogo inicial a compañeros y familia.</li>
+            <li><span class="val-dot"></span>Posicionar la marca Pear con identidad visual clara.</li>
+            <li><span class="val-dot"></span>Generar utilidad suficiente para reinvertir en más inventario.</li>
+            <li><span class="val-dot"></span>Aprender a gestionar una empresa real desde cero.</li>
+            <li><span class="val-dot"></span>Expandir el catálogo de stickers con diseños propios.</li>
+          </ul>
+        </div>
+
+        <div class="info-card wide reveal">
+          <div class="ic-header"><span class="ic-icon">🍐</span><h3>Marca, Logo y Slogan</h3></div>
+          <div class="brand-showcase">
+            <div class="brand-logo-display">
+              <div class="logo-icon" style="background-image: url(Icon.webp); width: 80px; height: 90px; background-size: cover;""></div>
+              <span class="brand-name-big">Pear Technologies</span>
+            </div>
+            <div class="brand-details">
+              <div class="brand-item"><span class="brand-label">Nombre</span><span class="brand-value">Pear Technologies</span></div>
+              <div class="brand-item"><span class="brand-label">Logotipo</span><span class="brand-value">Una pera mordida por ambos lados, simple, negra. Inspiración: Apple.</span></div>
+              <div class="brand-item"><span class="brand-label">Slogan</span><span class="brand-value brand-slogan">"Calidad de Carga, Alto desempeño, y un Buen diseño."</span></div>
+              <div class="brand-item">
+                <span class="brand-label">Colores</span>
+                <div class="color-swatches">
+                  <span class="swatch green" title="Verde principal"></span>
+                  <span class="swatch white" title="Blanco base"></span>
+                  <span class="swatch black" title="Negro contraste"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-card wide reveal">
+          <div class="ic-header"><span class="ic-icon">📊</span><h3>Organigrama</h3></div>
+          <div class="organigrama">
+            <div class="org-top">
+              <div class="org-box ceo">
+                <div class="org-icon">👤</div>
+                <strong>CEO & Diseño</strong>
+                <span>Arturo Del Callejo Salgado</span>
+                <small>Dirección general y diseño visual</small>
+              </div>
+            </div>
+            <div class="org-connector-top"></div>
+            <div class="org-row">
+              <div class="org-branch">
+                <div class="org-box"><div class="org-icon">📦</div><strong>Producto & Ops</strong><span>Pablo Salmon Rivas</span><small>Inventario y proveedores</small></div>
+              </div>
+              <div class="org-branch">
+                <div class="org-box"><div class="org-icon">📣</div><strong>Marketing</strong><span>Miguel Becerra Alcalá</span><small>Redes y publicidad</small></div>
+              </div>
+              <div class="org-branch">
+                <div class="org-box"><div class="org-icon">💰</div><strong>Ventas & Finanzas</strong><span>Cristian Zavala Velasco</span><small>Clientes y costos</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- TAB PRODUCTO -->
+    <div class="tab-panel" id="tab-producto">
+      <div class="info-grid">
+
+        <div class="info-card wide reveal">
+          <div class="ic-header"><span class="ic-icon">📦</span><h3>Descripción del producto</h3></div>
+          <p>Pear Technologies comercializa dos líneas: <strong>accesorios de carga</strong> (cables y cubitos) y <strong>stickers decorativos</strong>. Todos los productos son adquiridos a proveedores mayoristas y revendidos con nuestra marca e identidad visual. No fabricamos los productos — nuestra propuesta de valor está en la selección, el precio accesible y la experiencia de compra.</p>
+        </div>
+
+        <div class="info-card wide reveal">
+          <div class="ic-header"><span class="ic-icon">🗂️</span><h3>Catálogo con precios de venta</h3></div>
+          <div class="product-table-wrap">
+            <table class="product-table">
+              <thead>
+                <tr><th>Producto</th><th>Categoría</th><th>Precio de venta</th><th>Propuesta de valor</th></tr>
+              </thead>
+              <tbody>
+                <tr><td><span class="pt-emoji">🔌</span> Cable USB-C</td><td><span class="pt-tag cables">Cable</span></td><td class="pt-price">$99</td><td>Compatible con la mayoría de dispositivos modernos Android y laptops.</td></tr>
+                <tr><td><span class="pt-emoji">⚡</span> Cable Lightning</td><td><span class="pt-tag cables">Cable</span></td><td class="pt-price">$99</td><td>Para dispositivos Apple (iPhone, iPad, AirPods). Precio accesible.</td></tr>
+                <tr><td><span class="pt-emoji">🔋</span> Cubito USB-C</td><td><span class="pt-tag cubitos">Cubito</span></td><td class="pt-price">$99</td><td>Adaptador compacto de pared con salida USB-C.</td></tr>
+                <tr><td><span class="pt-emoji">🔌</span> Cubito USB-B</td><td><span class="pt-tag cubitos">Cubito</span></td><td class="pt-price">$99</td><td>Adaptador de pared con salida USB tipo B clásico.</td></tr>
+                <tr><td><span class="pt-emoji">🎨</span> Sticker individual</td><td><span class="pt-tag stickers">Sticker</span></td><td class="pt-price">$5</td><td>Diseños llamativos para personalizar lo que quieras.</td></tr>
+                <tr><td><span class="pt-emoji">🎨</span> Pack de 5 stickers</td><td><span class="pt-tag stickers">Sticker</span></td><td class="pt-price">$21</td><td>Ahorra $4 vs. comprar 5 por separado.</td></tr>
+                <tr><td><span class="pt-emoji">🎨</span> Pack de 10 stickers</td><td><span class="pt-tag stickers">Sticker</span></td><td class="pt-price">$45</td><td>El mejor precio por sticker del catálogo ($4.50 c/u).</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="ic-header"><span class="ic-icon">🏭</span><h3>Proveedores</h3></div>
+          <p>Los productos de carga son adquiridos a través de <strong>proveedores mayoristas</strong>. No los fabricamos nosotros. Buscamos precios competitivos que nos permitan un margen razonable y mantener precios accesibles para el cliente final.</p>
+          <div class="supplier-note">
+            <span>📌</span>
+            <span>Los stickers pueden ser diseñados por el equipo e impresos con proveedores locales, lo que nos da diferenciación en diseño propio.</span>
+          </div>
+        </div>
+
+        <div class="info-card reveal-delay-1">
+          <div class="ic-header"><span class="ic-icon">💎</span><h3>Propuesta de valor</h3></div>
+          <ul class="value-list">
+            <li><span class="val-dot"></span><strong>Precio accesible:</strong> Cargadores a $99 y stickers desde $5.</li>
+            <li><span class="val-dot"></span><strong>Diseño con personalidad:</strong> Stickers con identidad juvenil y creativa.</li>
+            <li><span class="val-dot"></span><strong>Practicidad:</strong> Productos del día a día que todos necesitan.</li>
+            <li><span class="val-dot"></span><strong>Amplio público:</strong> Sirven a casi cualquier persona con un celular.</li>
+            <li><span class="val-dot"></span><strong>Combo natural:</strong> Cable + sticker en una misma compra.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- TAB MARKETING -->
+    <div class="tab-panel" id="tab-marketing">
+      <div class="info-grid">
+
+        <div class="info-card wide reveal">
+          <div class="ic-header"><span class="ic-icon">💰</span><h3>Estrategia de precios</h3></div>
+          <p>Nuestra estrategia se basa en <strong>precios de penetración</strong>: entrar al mercado con precios bajos y accesibles para ganar clientes rápidamente. Al ser una empresa nueva sin marca establecida, competimos con precio y con el factor de compra directa (sin intermediarios grandes).</p>
+          <div class="price-strategy-grid">
+            <div class="ps-item">
+              <div class="ps-icon">📉</div>
+              <h4>Precios accesibles</h4>
+              <p>Cables y cubitos a $99, por debajo de tiendas departamentales.</p>
+            </div>
+            <div class="ps-item">
+              <div class="ps-icon">📦</div>
+              <h4>Incentivo de volumen en stickers</h4>
+              <p>1 sticker $5 · Pack de 5 por $21 · Pack de 10 por $45. Más compras = mejor precio por unidad.</p>
+            </div>
+            <div class="ps-item">
+              <div class="ps-icon">🎯</div>
+              <h4>Precio fijo y claro</h4>
+              <p>Sin regateo, sin letra chica. El precio que ves es el que pagas.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-card wide reveal">
+          <div class="ic-header"><span class="ic-icon">📣</span><h3>¿Cómo daremos a conocer nuestro producto?</h3></div>
+          <div class="marketing-channels">
+            <div class="mc-item reveal">
+              <div class="mc-num">01</div>
+              <div class="mc-content"><h4>Redes sociales (Instagram & TikTok)</h4><p>Publicaremos mostrando los productos, precios y diseños. El video corto es ideal para stickers y cables. Alcance juvenil sin costo.</p></div>
+            </div>
+            <div class="mc-item reveal-delay-1">
+              <div class="mc-num">02</div>
+              <div class="mc-content"><h4>Venta directa (boca a boca)</h4><p>Empezamos vendiendo a compañeros, familiares y amigos. El canal más efectivo y sin costo al iniciar. Una buena experiencia genera recomendaciones.</p></div>
+            </div>
+            <div class="mc-item reveal-delay-2">
+              <div class="mc-num">03</div>
+              <div class="mc-content"><h4>WhatsApp como catálogo digital</h4><p>Compartir este sitio web como catálogo por WhatsApp. Fácil de reenviar, sin imprimir nada, y con precios siempre actualizados.</p></div>
+            </div>
+            <div class="mc-item reveal-delay-3">
+              <div class="mc-num">04</div>
+              <div class="mc-content"><h4>Identidad de marca consistente</h4><p>El logo, los colores y el slogan en todos los puntos de contacto: empaque, redes y sitio web. Una marca reconocible genera confianza.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="ic-header"><span class="ic-icon">🎯</span><h3>Público objetivo</h3></div>
+          <ul class="value-list">
+            <li><span class="val-dot"></span><strong>Primario:</strong> Jóvenes de 12–25 años, estudiantes.</li>
+            <li><span class="val-dot"></span><strong>Secundario:</strong> Cualquier persona con smartphone que necesita cargadores.</li>
+            <li><span class="val-dot"></span><strong>Canal principal:</strong> Venta directa y redes sociales.</li>
+            <li><span class="val-dot"></span><strong>Territorio inicial:</strong> Local (escuela, familia, conocidos).</li>
+          </ul>
+        </div>
+
+        <div class="info-card reveal-delay-1">
+          <div class="ic-header"><span class="ic-icon">📊</span><h3>Publicidad</h3></div>
+          <ul class="value-list">
+            <li><span class="val-dot"></span><strong>Sin costo inicial:</strong> Instagram, TikTok y WhatsApp son gratuitos.</li>
+            <li><span class="val-dot"></span><strong>Contenido orgánico:</strong> Fotos y videos con buena iluminación y edición sencilla.</li>
+            <li><span class="val-dot"></span><strong>Hashtags relevantes:</strong> Para ampliar alcance sin pagar.</li>
+            <li><span class="val-dot"></span><strong>Futuro:</strong> Si hay capital, considerar anuncios en Instagram o Facebook.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="logo-icon" style="background-image: url(Icon.webp); filter: invert(100%); width: 26px; height: 30px; background-size: cover;""></div>
+          <span>Pear Technologies</span>
+        </div>
+        <p class="footer-tagline">"Calidad de Carga, Alto desempeño, y un Buen diseño."</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V9.14a8.16 8.16 0 004.77 1.52V7.21a4.85 4.85 0 01-1-.52z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Productos</h5>
+        <a href="#shop" data-scroll="shop">Cable USB-C</a>
+        <a href="#shop" data-scroll="shop">Cable Lightning</a>
+        <a href="#shop" data-scroll="shop">Cubito USB-C</a>
+        <a href="#shop" data-scroll="shop">Cubito USB-B</a>
+        <a href="#shop" data-scroll="shop">Stickers</a>
+      </div>
+      <div class="footer-col">
+        <h5>Empresa</h5>
+        <a href="#about" data-scroll="about">Nosotros</a>
+        <a href="#about" data-scroll="about">El equipo</a>
+        <a href="#proyecto" data-scroll="proyecto">Proyecto</a>
+        <a href="#proyecto" data-scroll="proyecto">Marketing</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Pear Technologies. Todos los derechos reservados.</span>
+      <span>Hecho con 🍐 en México</span>
+    </div>
+  </div>
+</footer>
+
+<!-- CART DRAWER -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer">
+  <div class="cart-header">
+    <h3>Tu Carrito</h3>
+    <button class="cart-close" id="cartClose"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <div class="cart-empty" id="cartEmpty">
+      <div class="empty-icon">🛒</div>
+      <p>Tu carrito está vacío</p>
+      <button class="btn-primary" id="goShop">Ir a la tienda</button>
+    </div>
+  </div>
+  <div class="cart-footer" id="cartFooter" style="display:none">
+    <div class="cart-total"><span>Total</span><span class="total-amount" id="totalAmount">$0</span></div>
+    <button class="btn-primary checkout-btn">Proceder al pago →</button>
+    <p class="cart-note">Envío acordado al momento de la compra</p>
+  </div>
+</aside>
+
+<div class="toast" id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
