@@ -7,7 +7,7 @@ const PRODUCTS = [
   {
     id: 1,
     name: 'Cable USB-C',
-    price: 99,
+    price: 75,
     category: 'cables',
     emoji: '🔌',
     catLabel: 'Cables',
@@ -18,7 +18,7 @@ const PRODUCTS = [
   {
     id: 2,
     name: 'Cable Lightning',
-    price: 99,
+    price: 75,
     category: 'cables',
     emoji: '⚡',
     catLabel: 'Cables',
@@ -29,7 +29,7 @@ const PRODUCTS = [
   {
     id: 3,
     name: 'Cubito USB-C',
-    price: 99,
+    price: 75,
     category: 'cubitos',
     emoji: '🔋',
     catLabel: 'Cubitos',
@@ -40,7 +40,7 @@ const PRODUCTS = [
   {
     id: 4,
     name: 'Cubito USB-B',
-    price: 99,
+    price: 75,
     category: 'cubitos',
     emoji: '🔌',
     catLabel: 'Cubitos',
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     id: 6,
     name: 'Pack de 5 stickers',
-    price: 21,
+    price: 24,
     category: 'stickers',
     emoji: '🎨',
     catLabel: 'Stickers · Pack',
@@ -91,19 +91,14 @@ const PRODUCTS = [
 function buildVisual(p) {
   if (p.visual === 'cable') {
     return `<div class="prod-visual pv-cable">
-      <div class="cable-wrap">
-        <div class="cable-head"></div>
-        <div class="cable-wire"></div>
-        <div class="cable-head ${p.connector === 'USB-C' ? 'usb-c' : ''}"></div>
+      <div class="cable-wrap" style="background-image: url(Cable.webp); background-size: cover; width: 130px; height: 130px;">
       </div>
       <div class="cable-badge">${p.connector}</div>
     </div>`;
   }
   if (p.visual === 'cubito') {
     return `<div class="prod-visual pv-cubito">
-      <div class="cubito-block">
-        <span class="cubito-label">${p.label}</span>
-        <div class="cubito-pin"></div>
+      <div class="cubito-block" style="background-image: url(Adapter.avif); background-size: cover; width: 130px; height: 130px; background-position: center; background-color: rgba(0,0,0,0)">
       </div>
     </div>`;
   }
@@ -119,13 +114,7 @@ function buildVisual(p) {
   }
   if (p.visual === 'sticker-single') {
     return `<div class="prod-visual pv-sticker-single">
-      <div class="single-sticker-wrap">
-        <svg width="70" height="80" viewBox="0 0 32 36" fill="none">
-          <path d="M16 2C16 2 8 2 5 8C2 14 3 20 3 20C3 20 1 26 5 30C9 34 16 34 16 34C16 34 23 34 27 30C31 26 29 20 29 20C29 20 30 14 27 8C24 2 16 2 16 2Z" fill="white"/>
-          <ellipse cx="22" cy="4" rx="3" ry="4" fill="white" transform="rotate(20 22 4)"/>
-          <ellipse cx="5" cy="16" rx="5" ry="5" fill="#27ae60"/>
-          <ellipse cx="27" cy="16" rx="5" ry="5" fill="#27ae60"/>
-        </svg>
+      <div class="single-sticker-wrap" style="background-image: url(Icon.webp); background-size: cover; width: 70px; height: 80px;">
       </div>
     </div>`;
   }
